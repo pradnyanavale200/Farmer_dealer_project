@@ -1,0 +1,149 @@
+body{
+	margin:0;
+	padding:0;
+	background-size:cover;
+	background-position:center;
+	font-family:sans-serif;
+	width:100%;
+	height:100vh;
+}
+.login-box{
+	width:520px;
+	height:500px;
+	background: rgba(63, 212, 143, 0.8);
+	color:#fff;
+	top:50%;
+	left:50%;
+	position:relative;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:70px 30px;
+}
+.login-boxi{
+	width:1000px;
+	height:600px;
+	background: rgba(245, 247, 246, 0.8);
+	color:#fff;
+	top:50%;
+	left:50%;
+	position:relative;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:70px 30px;
+}
+.aavtar{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top:-50px;
+	left:calc(50% - 50px);
+}
+
+p{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:22px;
+}
+h3{
+	margin:0;
+	font-size:22px;
+	position: relative;;
+	top:-5px;
+	color: #000000;
+}
+h5{
+	margin:0;
+	font-size:22px;
+	position: relative;;
+	top:150px;
+	color: #000000;
+}
+
+.login-box p{
+	margin:0;
+	padding:10px;
+	font-weight:bold;
+}
+.login-box input{
+	width:250px;
+	margin-bottom:20px;
+	
+}
+.login-box input[type="text"],input[type="password"]{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+.login-box select, option{
+	border:none;
+	position:relative;
+	left:110px;
+	width: 200px;
+	margin-bottom: 20px;
+	border-bottom:1px solid #00003;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+	
+	
+}
+.login-box input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	position:relative;
+	left:140px;
+	background-color:orange;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+	position:relative;
+	width: 150px;
+	
+}
+.but input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	position:relative;
+	top:-30x;
+	left:680px;
+	background-color:orange;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+	position:relative;
+	width: 150px;
+	
+}
+.but input[type="submit"]:hover{
+	cursor:pointer;
+	background:#0000ff;
+	color:#000;
+	position:relative;
+	width: 150px;
+	
+}
+.login-box input[type="submit"]:hover{
+	cursor:pointer;
+	background:#0000ff;
+	color:#000;
+	position:relative;
+	width: 30px;
+	position:relative;
+	width: 150px;
+	
+}
+.login-box a{
+	text-decoration:none;
+	font-size:14px;
+	color:red;
+}
